@@ -11,6 +11,7 @@ import useWindowSize from "react-use/lib/useWindowSize";
 import RulesModal from "./components/RulesModal";
 import Toast from "./components/Toast";
 import SoundToggle from "./SoundToggle ";
+import dragon from "/dragon4.png";
 
 // Sound effects
 const sounds = {
@@ -448,6 +449,9 @@ function App() {
           </div>
         ) : (
           <div className="bg-amber-50 rounded-lg p-8 border-4 border-amber-700 text-center space-y-6">
+            <div className="w-full flex justify-center">
+              <img src={dragon} className="h-48" alt="" />
+            </div>
             <h2 className="text-4xl font-medieval text-red-600">
               The Dragon Prevails! 🐉
             </h2>

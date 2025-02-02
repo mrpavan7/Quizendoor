@@ -1,11 +1,11 @@
 import React from "react";
-import dragon1 from "/dragon3.png";
+import dragon1 from "/dragon4.png";
 
 const StartScreen = ({ onStart }) => {
   return (
-    <div className="bg-amber-50 rounded-lg p-8 max-w-2xl mx-4 shadow-xl border-4 border-amber-700 animate-fade-in">
+    <div className="bg-amber-50 rounded-lg p-8 sm:pt-5 max-w-2xl mx-4 shadow-xl border-4 border-amber-700 animate-fade-in">
       <div className="w-full flex justify-center">
-        <img src={dragon1} className="h-40" alt="" />
+        <img src={dragon1} className="h-32 sm:h-48" alt="" />
       </div>
       <h1 className="text-3xl font-medieval text-amber-800 mb-6 text-center">
         🏰 Welcome to the Kingdom of Quizendoor! 🗡️
